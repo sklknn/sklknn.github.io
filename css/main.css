@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-size: 14px;
@@ -284,9 +286,9 @@ body {
   overflow: hidden;
 }
 .v7_47 {
-  width: 100%;
+  width: 83%;
   color: rgba(205,214,244,1);
-  position: absolute;
+  position: relative;
   top: 237px;
   left: 72px;
   font-family: Fira Code;
@@ -294,6 +296,7 @@ body {
   font-size: 40px;
   opacity: 1;
   text-align: left;
+  display: block;
 }
 .v7_46 {
   width: 100%;
@@ -392,7 +395,6 @@ body {
   text-align: center;
 }
 .v7_37 {
-  width: 100%;
   color: rgba(205,214,244,1);
   position: absolute;
   top: 324px;
@@ -402,18 +404,18 @@ body {
   font-size: 40px;
   opacity: 1;
   text-align: left;
+  display: block;
 }
 .v7_38 {
-  width: 100%;
   color: rgba(243,139,168,1);
-  position: absolute;
+  position: relative;
   top: 48px;
-  left: 573px;
   font-family: Fira Code;
   font-weight: Regular;
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  display: block;
 }
 .v7_36 {
   width: 100%;
@@ -451,6 +453,7 @@ body {
   font-size: 64px;
   opacity: 1;
   text-align: center;
+  display:block
 }
 .v1_66 {
   width: 100%;
