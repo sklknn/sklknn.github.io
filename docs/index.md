@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Sklknn"
-  text: "Personal Page"
-  tagline: My great project tagline
+  name: "Привет ! "
+  text: "Я Никита Скулкин"
+  tagline: Начинающий разработчик и системный администратор
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Кнопочка один
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Кнопочка дыва
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Английский B2 - Не проблема!
+    details: Весь этот сайт собран описраясь на документацию к VitePress, и это только подтверждает мои возмодности ;)
+  - title: Меня стоит нанять, потому что
+    details: Я не остановлюсь ни перед чем, даже сайт собрал, чтоб показать, какой я крутой!
+  - title: Да и вообще
+    details: Дайте денег пжпжпжпжпжжпжпжп
 ---
 
