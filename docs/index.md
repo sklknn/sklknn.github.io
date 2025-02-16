@@ -6,13 +6,14 @@ hero:
   name: "Привет ! "
   text: "Я Никита Скулкин"
   tagline: Начинающий разработчик и системный администратор
+  image: ./assets/avatar.jpg
   actions:
     - theme: brand
-      text: Кнопочка один
-      link: /markdown-examples
+      text: Мои проекты
+      link: /projects
     - theme: alt
-      text: Кнопочка дыва
-      link: /api-examples
+      text: Про меня
+      link: /
 
 features:
   - title: Английский B2 - Не проблема!

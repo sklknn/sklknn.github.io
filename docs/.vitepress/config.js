@@ -1,13 +1,37 @@
 export default {
   // site-level options
-  title: 'Sklknn',
-  description: 'Just playing around.',
+  lang: 'ru-RU',
+  title: 'Никита Скулкин',
+  description: 'Немножко про меня.',
 
   themeConfig: {
     // theme-level options
     logo: '/avatar.png',
 
     siteTitle: 'Никита Скулкин',
+
+    returnToTopLabel: 'Наверх',
+    sidebarMenuLabel: 'Меню',
+    darkModeSwitchLabel: 'Тема',
+    lightModeSwitchTitle: 'Светлая тема',
+    darkModeSwitchTitle: 'Темная тема',
+    skipToContentLabel: 'Перейти к содержимому',
+
+    head:[
+      ['link', { rel: 'icon', href: './favicon.ico' }],
+      [
+        'script',
+        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-L0LBRQSLCY' }
+      ]
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-L0LBRQSLCY');`
+      ]
+    ],
 
     socialLinks: [
       // You can add any icon from simple-icons (https://simpleicons.org/):
@@ -22,7 +46,7 @@ export default {
 
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Проекты', link: '/guide/' },
+      { text: 'Проекты', link: '/projects' },
       { text: 'GitHub', link: 'https://github.com/sklknn' },
     ],
 
