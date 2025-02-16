@@ -19,11 +19,12 @@ export default {
       gtag('config', 'G-L0LBRQSLCY');`
     ]
   ],
+  
 
   themeConfig: {
     // theme-level options
     logo: '/avatar.png',
-
+    appearance: 'dark',
     siteTitle: 'Никита Скулкин',
 
     returnToTopLabel: 'Наверх',
