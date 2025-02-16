@@ -5,7 +5,7 @@ export default {
   description: 'Немножко про меня.',
 
   head:[
-    ['link', { rel: 'icon', href: './favicon.ico' }],
+    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/sklknn/sklknn.github.io/refs/heads/main/docs/favicon.ico' }],
     [
       'script',
       { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-L0LBRQSLCY' }
@@ -34,7 +34,13 @@ export default {
     darkModeSwitchTitle: 'Темная тема',
     skipToContentLabel: 'Перейти к содержимому',
 
-    
+    searchPlaceholder: 'Поиск',
+    searchOpenTitle: 'Открыть поиск',
+    searchCloseTitle: 'Закрыть поиск',
+
+    search: {
+      provider: 'local',
+    },
 
     socialLinks: [
       // You can add any icon from simple-icons (https://simpleicons.org/):
