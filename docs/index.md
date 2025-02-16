@@ -6,7 +6,7 @@ hero:
   name: "Привет ! "
   text: "Я Никита Скулкин"
   tagline: Начинающий разработчик и системный администратор
-  image: ./assets/avatar.jpg
+  image: https://github.com/sklknn/sklknn.github.io/blob/main/docs/assets/avatar.jpg?raw=true
   actions:
     - theme: brand
       text: Мои проекты

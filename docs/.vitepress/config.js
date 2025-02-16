@@ -4,6 +4,22 @@ export default {
   title: 'Никита Скулкин',
   description: 'Немножко про меня.',
 
+  head:[
+    ['link', { rel: 'icon', href: './favicon.ico' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-L0LBRQSLCY' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-L0LBRQSLCY');`
+    ]
+  ],
+
   themeConfig: {
     // theme-level options
     logo: '/avatar.png',
@@ -17,21 +33,7 @@ export default {
     darkModeSwitchTitle: 'Темная тема',
     skipToContentLabel: 'Перейти к содержимому',
 
-    head:[
-      ['link', { rel: 'icon', href: './favicon.ico' }],
-      [
-        'script',
-        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-L0LBRQSLCY' }
-      ]
-      [
-        'script',
-        {},
-        `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-L0LBRQSLCY');`
-      ]
-    ],
+    
 
     socialLinks: [
       // You can add any icon from simple-icons (https://simpleicons.org/):
