@@ -1,3 +1,3 @@
-dock/.vitepress/cache
-dock/.vitepress/dist
+/docs/.vitepress/cache/*
+
 

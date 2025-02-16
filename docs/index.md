@@ -13,7 +13,10 @@ hero:
       link: /projects
     - theme: alt
       text: Про меня
-      link: /
+      link: /about
+    - theme: alt
+      text: Написать мне!
+      link: https://t.me/ClonerT_T
 
 features:
   - title: Английский B2 - Не проблема!
