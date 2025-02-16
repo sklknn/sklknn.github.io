@@ -23,7 +23,7 @@ export default {
 
   themeConfig: {
     // theme-level options
-    logo: '/avatar.png',
+    logo: 'https://github.com/sklknn/sklknn.github.io/blob/main/docs/avatar.png?raw=true',
     appearance: 'dark',
     siteTitle: 'Никита Скулкин',
 
