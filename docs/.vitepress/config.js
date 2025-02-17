@@ -56,6 +56,7 @@ export default {
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Проекты', link: '/projects' },
+      { text: 'Гайды', link: '/guides' },
       { text: 'GitHub', link: 'https://github.com/sklknn' },
     ],
 
